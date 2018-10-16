@@ -1,0 +1,16 @@
+2018-09-03T08:20:28.178Z [31merror[39m: ws: /api/produit/mostOrderedProduct, data : {}
+2018-09-03T18:38:13.862Z [31merror[39m: ws: /api/commande/add, data : {"idClient":1,"lignes":[{"idProduit":61,"qte":30},{"idProduit":62,"qte":3}]}
+2018-09-03T18:38:56.760Z [31merror[39m: ws: /api/commande/add, data : {"idClient":1,"lignes":[{"idProduit":61,"qte":30},{"idProduit":62,"qte":3}]}
+2018-09-03T18:39:44.570Z [31merror[39m: ws: /api/commande/add, data : {"idClient":1,"lignes":[{"idProduit":61,"qte":30},{"idProduit":62,"qte":3}]}
+2018-09-03T18:40:23.480Z [31merror[39m: ws: /api/commande/add, data : {"idClient":1,"lignes":[{"idProduit":61,"qte":30},{"idProduit":62,"qte":3}]}
+2018-09-03T18:53:28.902Z [31merror[39m: ws: /api/commande/add, data : {"idClient":1,"lignes":[{"idProduit":61,"qte":100},{"idProduit":62,"qte":3}]}
+2018-09-04T07:12:30.002Z [31merror[39m: ws: /api/commande/add, data : {"idClient":1,"lignes":[{"idProduit":61,"qte":100},{"idProduit":62,"qte":10}]}
+2018-09-04T07:13:23.307Z [31merror[39m: ws: /api/commande/add, data : {"idClient":1,"lignes":[{"idProduit":61,"qte":100},{"idProduit":62,"qte":10}]}
+2018-09-04T07:13:49.843Z [31merror[39m: ws: /api/commande/add, data : {"idClient":1,"lignes":[{"idProduit":61,"qte":100},{"idProduit":62,"qte":10}]}
+2018-09-04T07:14:25.910Z [31merror[39m: ws: /api/commande/add, data : {"idClient":1,"lignes":[{"idProduit":61,"qte":100},{"idProduit":62,"qte":10}]}
+2018-09-04T07:14:53.933Z [31merror[39m: ws: /api/commande/add, data : {"idClient":1,"lignes":[{"idProduit":61,"qte":100},{"idProduit":62,"qte":10}]}
+2018-09-04T07:17:27.771Z [31merror[39m: ws: /api/commande/add, data : {"idClient":1,"lignes":[{"idProduit":61,"qte":100},{"idProduit":62,"qte":10}]}
+2018-09-04T07:17:32.621Z [31merror[39m: ws: /api/commande/add, data : {"idClient":1,"lignes":[{"idProduit":61,"qte":100},{"idProduit":62,"qte":10}]}
+2018-09-04T07:18:20.951Z [31merror[39m: ws: /api/commande/add, data : {"idClient":1,"lignes":[{"idProduit":61,"qte":100},{"idProduit":62,"qte":10}]}
+2018-09-04T07:19:26.196Z [31merror[39m: ws: /api/commande/add, data : {"idClient":1,"lignes":[{"idProduit":61,"qte":100},{"idProduit":62,"qte":10}]}
+2018-09-04T07:38:32.088Z [31merror[39m: ws: /api/commande/add, data : {"idClient":1,"lignes":[{"idProduit":61,"qte":100},{"idProduit":62,"qte":10}]}

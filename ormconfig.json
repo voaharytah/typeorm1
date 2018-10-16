@@ -1,0 +1,25 @@
+{
+    "type": "mysql",
+    "host": "127.0.0.1",
+    "port": 3306,
+    "username": "phpmyadmin",
+    "password": "root",
+    "database": "typeorm_1",
+    "synchronize": true,
+    "logging": false,
+    "migrationsRun": true,
+    "entities": [
+        "src/Donnees/DomainObject/**/*.ts"
+    ],
+    "migrations": [
+        "src/Contrainte/Config/Migration/**/*.ts"
+    ],
+    "subscribers": [
+        "src/Contrainte/Config/Subscriber/**/*.ts"
+    ],
+    "cli": {
+        "entitiesDir": "src/Donnees/DomainObject",
+        "migrationsDir": "src/Contrainte/Config/Migration",
+        "subscribersDir": "src/Contrainte/Config/Subscriber"
+    }
+}

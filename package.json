@@ -1,0 +1,31 @@
+{
+  "name": "typeorm3",
+  "version": "0.0.1",
+  "description": "Awesome project developed with TypeORM.",
+  "devDependencies": {
+    "@types/node": "^8.0.29",
+    "@types/winston": "^2.4.4",
+    "nodemon": "^1.18.3",
+    "ts-node": "3.3.0",
+    "typescript": "2.5.2"
+  },
+  "dependencies": {   
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4",
+    "jsonwebtoken": "^8.3.0",
+    "logger": "0.0.1",
+    "md5": "^2.2.1",
+    "mysql": "^2.14.1",
+    "reflect-metadata": "^0.1.10",
+    "typedi": "^0.8.0",
+    "typeorm": "0.2.7",
+    "typeorm-typedi-extensions": "^0.2.1",
+    "winston": "^3.0.0"
+  },
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc && nodemon -e ts -w ./src -x npm run start",
+    "generate-migration": "ts-node .\\node_modules\\typeorm\\cli.js migration:generate -n",
+    "run-migration": "ts-node .\\node_modules\\typeorm\\cli.js migration:run"
+  }
+}

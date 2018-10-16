@@ -1,0 +1,16 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Client_1 = require("../../Donnees/DomainObject/Client");
+var ClientDoFactory = /** @class */ (function () {
+    function ClientDoFactory() {
+    }
+    ClientDoFactory.prototype.createClientDo = function (clientData) {
+        var client = new Client_1.Client();
+        client.name = clientData.name;
+        client.address = clientData.address;
+        return client;
+    };
+    return ClientDoFactory;
+}());
+exports.ClientDoFactory = ClientDoFactory;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiL21lZGlhL3ZvYWhhcnkvZGF0YS9SRC9TT1VSQ0UvTk9ERS90eXBlb3JtMy9zcmMvQ29udHJhaW50ZS9GYWN0b3J5L0NsaWVudERvRmFjdG9yeS50cyIsInNvdXJjZXMiOlsiL21lZGlhL3ZvYWhhcnkvZGF0YS9SRC9TT1VSQ0UvTk9ERS90eXBlb3JtMy9zcmMvQ29udHJhaW50ZS9GYWN0b3J5L0NsaWVudERvRmFjdG9yeS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLDREQUEyRDtBQU8zRDtJQUFBO0lBU0EsQ0FBQztJQVBHLHdDQUFjLEdBQWQsVUFBZSxVQUFlO1FBQzFCLElBQUksTUFBTSxHQUFHLElBQUksZUFBTSxFQUFFLENBQUM7UUFDMUIsTUFBTSxDQUFDLElBQUksR0FBRyxVQUFVLENBQUMsSUFBSSxDQUFDO1FBQzlCLE1BQU0sQ0FBQyxPQUFPLEdBQUcsVUFBVSxDQUFDLE9BQU8sQ0FBQztRQUNwQyxNQUFNLENBQUMsTUFBTSxDQUFDO0lBQ2xCLENBQUM7SUFFTCxzQkFBQztBQUFELENBQUMsQUFURCxJQVNDO0FBVFksMENBQWUiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBDbGllbnQgfSBmcm9tIFwiLi4vLi4vRG9ubmVlcy9Eb21haW5PYmplY3QvQ2xpZW50XCI7XHJcblxyXG5cclxuZXhwb3J0IGludGVyZmFjZSBDbGllbnREb0ZhY3RvcnlBY2kge1xyXG4gICAgY3JlYXRlQ2xpZW50RG8oY2xpZW50RGF0YTogYW55KTtcclxufVxyXG5cclxuZXhwb3J0IGNsYXNzIENsaWVudERvRmFjdG9yeSBpbXBsZW1lbnRzIENsaWVudERvRmFjdG9yeUFjaSB7XHJcblxyXG4gICAgY3JlYXRlQ2xpZW50RG8oY2xpZW50RGF0YTogYW55KSB7XHJcbiAgICAgICAgbGV0IGNsaWVudCA9IG5ldyBDbGllbnQoKTtcclxuICAgICAgICBjbGllbnQubmFtZSA9IGNsaWVudERhdGEubmFtZTtcclxuICAgICAgICBjbGllbnQuYWRkcmVzcyA9IGNsaWVudERhdGEuYWRkcmVzcztcclxuICAgICAgICByZXR1cm4gY2xpZW50O1xyXG4gICAgfVxyXG4gICAgXHJcbn0iXX0=
