@@ -1,6 +1,6 @@
 import { User } from "@data/DomainObject/User";
 
-export interface UserRepositoryAci {
-  createUser(user: User);
+export interface UserSAAci {
   login(user: User);
+  createUser(user: User);
 }
