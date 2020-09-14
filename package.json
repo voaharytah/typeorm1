@@ -7,9 +7,10 @@
     "@types/winston": "^2.4.4",
     "nodemon": "^1.18.3",
     "ts-node": "3.3.0",
-    "typescript": "2.5.2"
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "3.3.3333"
   },
-  "dependencies": {   
+  "dependencies": {
     "body-parser": "^1.18.1",
     "express": "^4.15.4",
     "jsonwebtoken": "^8.3.0",
@@ -18,14 +19,15 @@
     "mysql": "^2.14.1",
     "reflect-metadata": "^0.1.10",
     "typedi": "^0.8.0",
-    "typeorm": "0.2.7",
+    "typeorm": "0.2.26",
     "typeorm-typedi-extensions": "^0.2.1",
     "winston": "^3.0.0"
   },
   "scripts": {
-    "start": "ts-node src/index.ts",
+    "start": "ts-node --project ./tsconfig.json -r tsconfig-paths/register  src/index.ts",
     "build": "tsc && nodemon -e ts -w ./src -x npm run start",
-    "generate-migration": "ts-node .\\node_modules\\typeorm\\cli.js migration:generate -n",
-    "run-migration": "ts-node .\\node_modules\\typeorm\\cli.js migration:run"
+    "generate-migration": "ts-node ./node_modules/typeorm/cli.js migration:generate -n",
+    "run-migration": "ts-node ./node_modules/typeorm/cli.js migration:run",
+    "typeorm": "ts-node ./node_modules/typeorm/cli.js"
   }
 }

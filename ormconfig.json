@@ -1,25 +1,19 @@
 {
-    "type": "mysql",
-    "host": "127.0.0.1",
-    "port": 3306,
-    "username": "phpmyadmin",
-    "password": "root",
-    "database": "typeorm_1",
-    "synchronize": true,
-    "logging": false,
-    "migrationsRun": true,
-    "entities": [
-        "src/Donnees/DomainObject/**/*.ts"
-    ],
-    "migrations": [
-        "src/Contrainte/Config/Migration/**/*.ts"
-    ],
-    "subscribers": [
-        "src/Contrainte/Config/Subscriber/**/*.ts"
-    ],
-    "cli": {
-        "entitiesDir": "src/Donnees/DomainObject",
-        "migrationsDir": "src/Contrainte/Config/Migration",
-        "subscribersDir": "src/Contrainte/Config/Subscriber"
-    }
+  "type": "mysql",
+  "host": "127.0.0.1",
+  "port": 3306,
+  "username": "root",
+  "password": "root",
+  "database": "typeorm_1",
+  "synchronize": true,
+  "logging": false,
+  "migrationsRun": true,
+  "entities": ["src/Data/DomainObject/**/*.ts"],
+  "migrations": ["src/Core/Config/Migration/**/*.ts"],
+  "subscribers": ["src/Core/Config/Subscriber/**/*.ts"],
+  "cli": {
+    "entitiesDir": "src/Data/DomainObject",
+    "migrationsDir": "src/Core/Config/Migration",
+    "subscribersDir": "src/Core/Config/Subscriber"
+  }
 }
