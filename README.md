@@ -1,2 +1,2 @@
-# typeorm1
-Repo for Typeorm testing
+# Typeorm
+Using TypeORM with typescript
